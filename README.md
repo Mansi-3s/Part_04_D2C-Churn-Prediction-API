@@ -57,8 +57,8 @@ D2C_Part_4/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd D2C_Part_4
+git clone https://github.com/Mansi-3s/Part_04_D2C-Churn-Prediction-API.git
+cd Part_04_D2C-Churn-Prediction-API
 ```
 
 Install dependencies:
