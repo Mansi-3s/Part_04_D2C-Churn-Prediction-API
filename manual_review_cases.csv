@@ -1,0 +1,11 @@
+customer_id,actual,predicted,churn_probability,error_type,interpretation
+CUST00044,0,1,0.4707952962473934,False Positive,"Model predicted churn, but customer remained active. Customer may have temporarily reduced purchases but stayed engaged."
+CUST00096,0,1,0.42454873410214516,False Positive,"Customer showed risk signals similar to churners, leading to an unnecessary retention intervention."
+CUST00109,0,1,0.5184024503713083,False Positive,Customer had characteristics associated with churn but continued purchasing after prediction.
+CUST00248,0,1,0.5313241802778719,False Positive,Likely seasonal purchasing behavior was mistaken for churn risk.
+CUST00335,0,1,0.8148833354209422,False Positive,Customer responded positively to promotions and remained active despite predicted churn.
+CUST00184,1,0,0.06150526401098717,False Negative,Customer churned unexpectedly despite appearing loyal and engaged.
+CUST00247,1,0,0.39378370959933023,False Negative,Model missed subtle churn signals that were not captured in available features.
+CUST00531,1,0,0.38850317845770577,False Negative,Customer behavior changed rapidly after the observation window.
+CUST00592,1,0,0.25643622398972393,False Negative,Customer had stable historical activity but stopped purchasing unexpectedly.
+CUST00838,1,0,0.3311774212588266,False Negative,"Potential external factors (competitor offers, dissatisfaction, relocation) caused churn."
